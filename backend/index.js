@@ -71,7 +71,7 @@ app.delete("/deleteWeather/:city", async (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://oghogare89:AtyUb8joWIsZxG54@demo.oakzb.mongodb.net/?retryWrites=true&w=majority&appName=DEMO",
+    "<Add your database link>",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
